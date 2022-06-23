@@ -1,0 +1,21 @@
+{
+  "name": "electron_gpio",
+  "version": "1.0.0",
+  "description": "npm -v  6.14.17",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build:raspi": "electron-packager ./ electron_gpio --platform=linux --arch=armv7l --electron-version=19.0.5 --overwrite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^19.0.5",
+    "electron-rebuild": "^3.2.7"
+  },
+  "dependencies": {
+    "electron-packager": "^15.5.1",
+    "onoff": "^6.0.3"
+  }
+}
